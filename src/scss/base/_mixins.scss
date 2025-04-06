@@ -8,13 +8,13 @@
 
 
 @mixin tablet () {
-	@media (max-width: 599px) {
+	@media (min-width: 599px) {
 		@content;
 	}
 }
 
 @mixin desktop () {
-	@media (max-width: 959px) {
+	@media (min-width: 959px) {
 		@content;
 	}
 }
